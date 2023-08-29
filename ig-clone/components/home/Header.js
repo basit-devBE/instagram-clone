@@ -20,6 +20,23 @@ const Header = () => {
           />
         </TouchableOpacity>
 
+        <TouchableOpacity>
+          <Image
+          source = {require('../../assets/hearts.png')
+        }
+
+        style={styles.icon}
+        />
+        </TouchableOpacity>
+
+        <TouchableOpacity>
+          <Image
+          source = {require('../../assets/messages.png')
+          }
+          style={styles.icon}
+          />
+        </TouchableOpacity>
+
 
 
       </View>
