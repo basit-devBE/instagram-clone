@@ -30,6 +30,11 @@ const Header = () => {
         </TouchableOpacity>
 
         <TouchableOpacity>
+          <TouchableOpacity>
+            <View style = {styles.unreadBadge}>
+            <Text style = {styles.unreadBadgeText}>11</Text>
+            </View>
+          </TouchableOpacity>
           <Image
           source = {require('../../assets/messages.png')
           }
@@ -69,6 +74,24 @@ const styles = StyleSheet.create({
     height: 30,
     marginLeft: 20,
     resizeMode: 'contain'
+  },
+
+  unreadBadge: {
+    backgroundColor: '#FF3250',
+    position: 'absolute',
+    left: 30,
+    bottom: 20,
+    width: 25,
+    height: 18,
+    borderRadius: 25,
+    alignItems: 'center',
+    justifyContent: 'center',
+    zIndex: 200,
+  },
+
+  unreadBadgeText:{
+    color: 'black',
+    fontWeight: '600',
   }
 })
 
