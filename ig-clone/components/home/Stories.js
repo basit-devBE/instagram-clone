@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         borderColor: '#ff8501',
     },
     storyText: {
-        color: 'white',
+        color: 'black',
         textAlign: 'center', // Center-aligns the text horizontally under the image.
       },
 })

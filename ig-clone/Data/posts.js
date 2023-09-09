@@ -128,7 +128,7 @@ export const POSTS =[
     {
         imageUrl: 'https://static.vecteezy.com/system/resources/previews/008/252/907/original/fc-barcelona-logo-football-club-barcelona-crest-emblem-on-a-blaugrana-background-free-vector.jpg',
         user: USERS[5].user,
-        Likes: 1_000_00,
+        Likes: 1_000_000_1000,
         caption: 'Hello Culers..Im here!',
         profile_picture: USERS[5].image,
 
@@ -156,7 +156,7 @@ export const POSTS =[
     {
         imageUrl: 'https://www.chilipeppermadness.com/wp-content/uploads/2022/08/Spicy-Noodles-SQ.jpg',
         user: USERS[6].user,
-        Llikes: 58,
+        Likes: 58,
         caption: 'cravings',
         profile_picture: USERS[6].image,
 
