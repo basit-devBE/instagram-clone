@@ -3,19 +3,19 @@ import React from 'react'
 import FormikPostUploader from './FormikPostUploader'
 
 
-const AddNewPost = () => (
+
+const AddNewPost = ({ navigation}) => (
     
     <View style={styles.container}>
-        <Header />
-        <FormikPostUploader />
+        <Header navigation={navigation}/>
+        <FormikPostUploader navigation={navigation}/>
     </View>
 
 )
 
-  const Header= () => {
-    return (
+  const Header= ({ navigation }) => (
     <View style={styles.headerContainer}>
-    <TouchableOpacity>
+    <TouchableOpacity onPress={() => navigation.goBack()}>
      <Image  source={{ uri: 'https://img.icons8.com/?size=256&id=1806&format=png' }}
      style={{ width: 30, height: 30}}
      />
@@ -26,7 +26,7 @@ const AddNewPost = () => (
  )
 
 
-}
+
 
 const styles = StyleSheet.create({
     container: {

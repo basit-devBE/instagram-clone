@@ -61,7 +61,7 @@ const BottomTabs = () => {
       <Icon icon={BottomTabIcons[3]} />
       <Icon icon={BottomTabIcons[4]} />
 
-      icon.name == 'Profile' ? styles.profilepic() : null
+      
     </View>
     </View>
 
